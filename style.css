@@ -2,6 +2,7 @@ body {
   overflow-x: hidden;
 }
 nav {
+  /* background: linear-gradient(to top, #ffd230, #921f1b); */
   background-color: transparent;
 }
 .jumbotron {
@@ -13,10 +14,10 @@ nav {
   background: linear-gradient(to bottom, #921f1b, #fff);
 }
 #project {
-  background-color: #f4c400;
+  background: linear-gradient(to bottom, #ffd230, #fff);
 }
 #contact {
-  background-color: #921f1b;
+  background: linear-gradient(to bottom, #ffd230, #fff);
 }
 section {
   padding-top: 5rem;
