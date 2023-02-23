@@ -74,9 +74,19 @@
         alt="UNO"
         width="300"
         class="rounded-circle mb-5"
+        data-aos="zoom-out-down"
+        data-aos-duration="1000"
+        data-aos-delay="100"
       />
 
-      <h1 class="display-4 fw-bold fs-3">UNPER OPEN CUP III</h1>
+      <h1
+        class="display-4 fw-bold fs-3 mb-5"
+        data-aos="zoom-out-down"
+        data-aos-duration="1000"
+        data-aos-delay="100"
+      >
+        UNPER OPEN CUP III
+      </h1>
       <!-- <h2 class="display-4 fs-1 fw-semibold">
         Unit Kegiatan Mahasiswa Seni Bela Diri Pencak Silat Padjajaran
       </h2>
@@ -102,7 +112,9 @@
       >
         <div class="row text-center mb-3">
           <div class="col">
-            <h2 class="border-bottom border-dark mb-5">Form Pendaftaran</h2>
+            <h2 class="border-bottom border-white">
+              Form Pendaftaran UNPER OPEN CUP III
+            </h2>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -113,11 +125,11 @@
             >
               <strong>Hatur Nuhun!</strong> Pendaftaran diproses. Silahkan
               Klik<a
-                href="https://chat.whatsapp.com/DCenUKWgsgsEnjDUUuA1WS"
-                class="text-decoration-none text-success"
-                ><strong> disini <i class="bi bi-whatsapp"></i> </strong
+                href="https://chat.whatsapp.com/JrzFJhnfLBO2DnJr5DUaYL"
+                class="text-success"
+                ><strong> Disini <i class="bi bi-whatsapp"></i> </strong
               ></a>
-              untuk gabung ke grup Whatsapp!
+              untuk gabung ke grup Whatsapp peserta UNPER OPEN CUP III!
               <button
                 type="button"
                 class="btn-close"
@@ -125,44 +137,69 @@
                 aria-label="Close"
               ></button>
             </div>
-            <form name="pendataan-anggota-silat-baru">
+            <div
+              class="alert alert-success my-alertdownload d-none"
+              role="alert"
+            >
+              Download Formulir Pendaftaran lengkapnya
+              <a href="#" class="alert-link" download>Disini</a>. Untuk
+              informasi lebih lanjut , silahkan bertanya lewat grup whatsapp.
+            </div>
+            <form name="pendaftaran-unper-open-3">
               <div class="mb-3">
-                <p>
-                  Petunjuk Pengisian : Silahkan isi data selengkap-lengkapnya.
-                  Setelah mengisi data, lihat pada notifikasi diatas form apakah
-                  sudah berhasil atau belum. jika pendaftaran sudah berhasil
-                  ,klik icon whatsapp pada notifikasi untuk bergabung ke grup
-                  whatsapp calon anggota. <br />
-                  Terimakasih !
+                <h5 class="text-danger fw-bold">Penting!!</h5>
+                <p class="text-dark">
+                  Petunjuk Pengisian : Isi form sesuai format dibawah , setelah
+                  klik tombol kirim , lihat bagian notifikasi pada halaman
+                  pendaftaran kemudian klik icon whatsapp untuk langsung
+                  bergabung dengan grup whatsapp peserta unper open.
                 </p>
               </div>
               <div class="mb-3">
-                <label for="Name" class="form-label">Nama Lengkap</label>
+                <label for="namakontingen" class="form-label"
+                  >Nama Kontingen</label
+                >
                 <input
                   type="text"
                   class="form-control"
-                  id="name"
+                  id="namakontingen"
                   aria-describedby="name"
-                  name="nama"
+                  name="namakontingen"
                   required
-                  placeholder="Jojo Sigantar"
+                  placeholder=""
                 />
               </div>
               <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
+                <label for="namapelatih1" class="form-label"
+                  >Nama Pelatih 1</label
+                >
                 <input
-                  type="email"
+                  type="text"
                   class="form-control"
-                  id="email"
-                  aria-describedby="email"
-                  name="email"
+                  id="namapelatih1"
+                  aria-describedby="namapelatih1"
+                  name="namapelatih1"
                   required
-                  placeholder="jojo@example.com"
+                  placeholder=""
+                />
+              </div>
+              <div class="mb-3">
+                <label for="namapelatih2" class="form-label"
+                  >Nama Pelatih 2</label
+                >
+                <input
+                  type="namapelatih2"
+                  class="form-control"
+                  id="namapelatih2"
+                  aria-describedby="namapelatih2"
+                  name="namapelatih2"
+                  required
+                  placeholder=""
                 />
               </div>
               <div class="mb-3">
                 <label for="No. HP / Whatsapp" class="form-label"
-                  >No. HP / Whatsapp</label
+                  >No. Telepon / Whatsapp</label
                 >
                 <input
                   type="text"
@@ -173,65 +210,6 @@
                   required
                   placeholder="08xxxxxxxxxx"
                 />
-              </div>
-              <div class="mb-3">
-                <label for="Program Studi" class="form-label"
-                  >Program Studi</label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="prodi"
-                  aria-describedby="prodi"
-                  name="prodi"
-                  required
-                />
-              </div>
-              <div class="mb-3">
-                <label for="prodi" class="form-label">Program Studi</label>
-                <select
-                  class="form-select"
-                  aria-label="Default select example"
-                  name="prodi"
-                >
-                  <option selected>Pilih Program Studi</option>
-                  <option value="Pendidikan Bahasa Inggris">
-                    Pendidikan Bahasa Inggris
-                  </option>
-                  <option value="Pendidikan Guru dan Sekolah Dasar">
-                    Pendidikan Guru dan Sekolah Dasar
-                  </option>
-                  <option value="Manajemen">Manajemen</option>
-                  <option value="Akuntansi">Akuntansi</option>
-                  <option value="Teknik Informatika">Teknik Informatika</option>
-                  <option value="Teknik Sipil">Teknik Sipil</option>
-                  <option value="Farmasi">Farmasi</option>
-                  <option value="Agribisnis">Agribisnis</option>
-                  <option value="Agroteknologi">Agroteknologi</option>
-                  <option value="Peternakan">Peternakan</option>
-                </select>
-              </div>
-              <div class="mb-3">
-                <label for="angkatan" class="form-label">Angkatan</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="angkatan"
-                  aria-describedby="angkatan"
-                  name="angkatan"
-                  required
-                  placeholder="Tahun angkatan"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="pesan" class="form-label">Pesan</label>
-                <textarea
-                  class="form-control"
-                  id="pesan"
-                  rows="3"
-                  name="pesan"
-                  placeholder="UKM SILAT Jaya Jaya Rahayu"
-                ></textarea>
               </div>
 
               <button type="submit" class="btn btn-success btn-kirim">
@@ -244,11 +222,11 @@
                 disabled
               >
                 <span
-                  class="spinner-grow spinner-grow-sm"
+                  class="spinner-border spinner-border-sm"
                   role="status"
                   aria-hidden="true"
                 ></span>
-                <span class="visually-hidden">Loading...</span>
+                Sedang mengirim...
               </button>
             </form>
           </div>
@@ -272,7 +250,7 @@
       class="text-white text-center pb-3"
     >
       <div class="mb-5">
-        <h5 class="text-dark">Support by :</h5>
+        <h5 class="text-dark">Sponsored by :</h5>
         <img src="img/gudey.png" alt="" width="80" />
         <img src="img/jaraido.jpeg" alt="" width="80" />
       </div>
@@ -334,35 +312,6 @@
         once: true,
       });
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
-    <script>
-      gsap.registerPlugin(TextPlugin);
-      gsap.to(".lead", {
-        duration: 2,
-        delay: 1.5,
-        text: "Open recruitment untuk seluruh mahasiswa kampus perjuangan",
-      });
-      gsap.to(".lead1", {
-        duration: 2,
-        delay: 3,
-        text: "Beri hati pada setiap karya-karya mu ❤️",
-      });
-      gsap.from(".jumbotron img", {
-        duration: 1,
-        y: -100,
-        opacity: 0,
-        ease: "bounce",
-      });
-      gsap.from(".navbar", { duration: 1, y: "-100%", opacity: 0 });
-      gsap.from(".display-4", {
-        duration: 1,
-        x: -50,
-        opacity: 0,
-        delay: 0.5,
-        ease: "back",
-      });
-    </script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -370,12 +319,35 @@
       crossorigin="anonymous"
     ></script>
     <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
-    <script type="text/javascript">
-      VanillaTilt.init(document.querySelectorAll(".rubik-box"), {
-        max: 25,
-        speed: 1000,
-        scale: 1.1,
-        glare: true,
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzNB53BGmdF94jQzCFk5NhZJfxTVRuLiEge67AbhcZ6DRNplP4itydT3d1Jg0PqsLKi/exec";
+      const form = document.forms["pendaftaran-unper-open-3"];
+      const btnKirim = document.querySelector(".btn-kirim");
+      const btnLoading = document.querySelector(".btn-loading");
+      const myAlert = document.querySelector(".my-alert");
+      const myAlertDownload = document.querySelector(".my-alertdownload");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        // ketika tombol di klik
+        // hilangkan tombol kirim , munculkan tombol loading
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            // tampilkan tombol kirim hilangkan tombol loading
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            // tmpilkan alert
+            myAlert.classList.toggle("d-none");
+            myAlertDownload.classList.toggle("d-none");
+            // reset form
+            form.reset();
+            console.log("Success!", response);
+          })
+
+          .catch((error) => console.error("Error!", error.message));
       });
     </script>
   </body>
