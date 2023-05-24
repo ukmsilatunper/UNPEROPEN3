@@ -3,7 +3,7 @@ body {
 }
 nav {
   /* background: linear-gradient(to top, #ffd230, #921f1b); */
-  background-color: transparent;
+  background-color: #ffd230;
 }
 .jumbotron {
   padding-top: 6rem;
